@@ -13,3 +13,6 @@ A card contains 24 numbered spaces and one free space (blank or it will have a n
 ## Pattern
 
 A pattern is the shape you need to cover on your card with called out numbers. You only need the numbers that form the pattern to win the game. The most basic patterns are straight lines in a horizontal, vertical or diagonal direction. One popular pattern is the "blackout" or "coverall," where you have to cover the whole card to win.
+
+## Purpose of this project!
+To provide a mutli dimensional arrayList of numbers to help testing patterns and number of ball draws in limited scope for testing perspective.
