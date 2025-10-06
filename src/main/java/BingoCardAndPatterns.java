@@ -32,6 +32,7 @@ public class BingoCardAndPatterns {
 
         ArrayList<ArrayList<Integer>> fullList = new ArrayList<ArrayList<Integer>>(PatternedList.patternedFullList(bingoCardNumbers, bingoPatternNumbers, randomNumbers));
 
+        //Debug purpose
         System.out.println("\nBingo card numbers - all");
         System.out.println(allNumbers.toString());
         System.out.println("\nBingo Card numbers - without pattern numbers");

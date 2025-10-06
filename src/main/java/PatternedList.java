@@ -15,7 +15,7 @@ public class PatternedList
         8-ball draw should give the highest award in the game and the bingo ball draw list will be like
         Bingo pattern numbers, some random numbers not in bingo card, and at last part of the list will be remaining bingo card numbers.
         So, Method will return 2-dimensional ArrayList to
-        fulfill all ball draw requirement.
+        fulfill all ball draw pattern testing requirement.
      */
     public static ArrayList<ArrayList<Integer>> patternedFullList(ArrayList<Integer> bcards, ArrayList<Integer> patterns, ArrayList<Integer> randomizedListWithPattern){
 
@@ -26,7 +26,7 @@ public class PatternedList
         ArrayList<Integer> firstList = new ArrayList<>(randomizedListWithPattern);
         list.add(firstList);
         //Debug purpose.
-        System.out.println("\n" + patterns.size()+" Balls Bingo Draws with "+ randomizedListWithPattern.size() +" Balls : " + randomizedListWithPattern.toString());
+        System.out.println("\n" + patterns.size()+" Balls Bingo Draw with "+ randomizedListWithPattern.size() +" Balls : " + randomizedListWithPattern.toString());
 
         for(int iii=patterns.size(); iii<(randomizedListWithPattern.size()-bcards.size()); iii++){
 
@@ -44,7 +44,7 @@ public class PatternedList
             //list.addLast(randomizedListWithPattern.);
 
             //Debug purpose.
-            System.out.println((iii+1)+" balls Bingo Draws with "+ randomizedListWithPattern.size() +" Balls : " + randomizedListWithPattern.toString());
+            System.out.println((iii+1)+" balls Bingo Draw with "+ randomizedListWithPattern.size() +" Balls : " + randomizedListWithPattern.toString());
         }
         return list;
     }

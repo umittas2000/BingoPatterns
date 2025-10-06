@@ -27,6 +27,7 @@ public class BingoHelpers {
         return bingoPatternNumbers;
     }
 
+    //Maybe it can be used in the future
     public static ArrayList<Integer> concatArrayLists(ArrayList<Integer> first, ArrayList<Integer> second){
         ArrayList<Integer> concatenated = new ArrayList<>();
         concatenated.addAll(first);
